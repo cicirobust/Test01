@@ -1,0 +1,8 @@
+cd git-practice-01
+git fetch origin branch1
+git checkout main
+git merge origin/branch1
+git status
+git add dir1/file3 file1
+git commit -m "merge with main and conflict resolved"
+git push origin main
