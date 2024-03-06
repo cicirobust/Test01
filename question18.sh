@@ -16,4 +16,4 @@ for branch in $(git branch -a --list 'remotes/origin/update*'); do
     git checkout "${branch##*/}"
     git merge main
 done
-chmod +x question18.sh
+
